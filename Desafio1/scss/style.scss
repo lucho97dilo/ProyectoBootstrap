@@ -16,11 +16,10 @@
     color: #15163d ;
 }
 body{
-    border: 1px solid gray;
-    margin-top: 30px;
+    border: 0,5px solid  #15163d;
+    margin: 30px;
     
 }
-
 @media(max-width: 992px){
    div {flex-wrap: wrap;
     justify-content: center;

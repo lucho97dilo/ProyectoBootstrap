@@ -10734,11 +10734,6 @@ textarea.form-control-lg {
   color: #15163d;
 }
 
-body {
-  border: 1px solid gray;
-  margin-top: 30px;
-}
-
 @media (max-width: 992px) {
   div {
     flex-wrap: wrap;
