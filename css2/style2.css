@@ -10723,15 +10723,50 @@ textarea.form-control-lg {
 .MulishBold {
   font-family: "Mulish", sans-serif;
   font-weight: 700;
-  font-size: 3.3rem;
-  color: #3957f1;
+  font-size: 5.6rem;
+  color: #0a2ff1;
+}
+
+.MulishBoldTwo {
+  font-family: "Mulish", sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: white;
 }
 
 .MulishRegular {
   font-family: "Mulish", sans-serif;
   font-weight: 400;
-  font-size: 1.75rem;
-  color: #15163d;
+  font-size: 1rem;
+  color: white;
+}
+
+body {
+  border: 1px solid gray;
+  margin-top: 30px;
+  padding: 5%;
+}
+
+.card-img-overlay {
+  top: unset;
+  padding: unset;
+}
+
+p {
+  margin-bottom: unset;
+}
+
+.marginC {
+  text-align: center;
+}
+
+h1, .h1 {
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.card {
+  border: unset;
 }
 
 @media (max-width: 992px) {
@@ -10747,4 +10782,4 @@ textarea.form-control-lg {
   }
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style2.css.map */
