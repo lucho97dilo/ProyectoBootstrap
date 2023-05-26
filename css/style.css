@@ -10770,4 +10770,8 @@ a {
   border-radius: unset;
 }
 
+div {
+  flex-direction: column;
+}
+
 /*# sourceMappingURL=style.css.map */
