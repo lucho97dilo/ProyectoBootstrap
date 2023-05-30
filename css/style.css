@@ -10770,8 +10770,19 @@ a {
   border-radius: unset;
 }
 
-div {
-  flex-direction: column;
+.container {
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  div {
+    flex-flow: column;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+  }
+  .col {
+    flex: unset;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
