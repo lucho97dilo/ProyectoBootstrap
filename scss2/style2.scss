@@ -1,0 +1,52 @@
+@import"../node_modules/bootstrap/scss/bootstrap.scss";
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap');
+
+.MulishBold{
+    font-family: 'Mulish', sans-serif ;
+    font-weight: 700 ;
+    font-size: 49px ;
+    color: #04146c ;
+
+}
+.MulishRegular{
+    font-family: 'Mulish', sans-serif ;
+    font-weight:  400 ;
+    font-size: 24px ;
+    color: #04146c ;
+}
+.MulishBold2{
+    font-family: 'Mulish', sans-serif ;
+    font-weight: 700 ;
+    font-size: 24px ;
+    color:  #0a2ff1 ;
+}
+body{
+    padding: 5%;
+}
+.center{
+   margin: auto;
+}
+.widthImg{
+    width: 80%;
+    
+}
+img{
+    width: 100%;
+}
+@media (max-width:768px){
+    img{
+        width: 100%;
+       
+     
+}
+
+div{
+    flex-flow: column;
+    
+    
+}
+.widthImg{
+    width: unset;
+}
+
+}

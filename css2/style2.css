@@ -10723,67 +10723,50 @@ textarea.form-control-lg {
 .MulishBold {
   font-family: "Mulish", sans-serif;
   font-weight: 700;
-  font-size: 4rem;
-  color: #04146c;
-}
-
-.MulishBoldTwo {
-  font-family: "Mulish", sans-serif;
-  font-weight: 700;
-  font-size: 2.5rem;
-  color: #0a2ff1;
-}
-
-.MulishBoldThree {
-  font-family: "Mulish", sans-serif;
-  font-weight: 700;
-  font-size: 1.5rem;
+  font-size: 49px;
   color: #04146c;
 }
 
 .MulishRegular {
   font-family: "Mulish", sans-serif;
   font-weight: 400;
-  font-size: 1.5rem;
+  font-size: 24px;
   color: #04146c;
 }
 
-.textcenter {
-  text-align: center;
-  vertical-align: auto;
+.MulishBold2 {
+  font-family: "Mulish", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  color: #0a2ff1;
 }
 
-.marg {
-  display: flex;
-  justify-content: center;
+body {
+  padding: 5%;
 }
 
-.card {
-  border: unset;
+.center {
+  margin: auto;
 }
 
-a {
-  border: 1px solid #0a2ff1;
+.widthImg {
+  width: 80%;
 }
 
-.btn-primary {
-  background-color: unset;
-  border-radius: unset;
-}
-
-.container {
-  margin: 0 auto;
+img {
+  width: 100%;
 }
 
 @media (max-width: 768px) {
+  img {
+    width: 100%;
+  }
   div {
     flex-flow: column;
-    margin: 0 auto;
-    margin-bottom: 2rem;
   }
-  .col {
-    flex: unset;
+  .widthImg {
+    width: unset;
   }
 }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style2.css.map */
