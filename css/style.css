@@ -10730,13 +10730,15 @@ textarea.form-control-lg {
 .MulishRegular {
   font-family: "Mulish", sans-serif;
   font-weight: 400;
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   color: #15163d;
+  margin-top: 0.5rem;
 }
 
 body {
   border: 1px solid gray;
-  margin-top: 30px;
+  padding: 5%;
+  margin: 1rem;
 }
 
 @media (max-width: 992px) {
