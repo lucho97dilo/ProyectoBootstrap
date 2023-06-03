@@ -22,8 +22,8 @@
 }
 body{
     border: 1px solid gray;
-    margin-top: 30px;
     padding: 5%;
+    margin: 1rem;
     
 }
 .card-img-overlay{
@@ -44,16 +44,17 @@ h1{
 .card{
     border: unset;
 }
-@media(max-width: 992px){
-   div {flex-wrap: wrap;
+
+    
+@media(max-width: 992px)
+  {
+    div {flex-wrap: wrap;
     justify-content: center;
     }
-   
-}
+  }
 @media(max-width: 768px){
-    div{
-        flex-flow: column;
-        justify-content: center;
-        
+   div{flex-flow: column;
+    justify-content: center;
     }
-}
+ }
+ 

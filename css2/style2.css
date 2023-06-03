@@ -10743,8 +10743,8 @@ textarea.form-control-lg {
 
 body {
   border: 1px solid gray;
-  margin-top: 30px;
   padding: 5%;
+  margin: 1rem;
 }
 
 .card-img-overlay {
