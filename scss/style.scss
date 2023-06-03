@@ -30,12 +30,16 @@
     text-align: center;
     vertical-align: auto;
 }
-
+.widthImg{
+    width: 60%;
+    margin: auto;
+}
 .marg{
     
    display: flex;
    justify-content: center;
 }
+
 .card{
   border: unset;
 }

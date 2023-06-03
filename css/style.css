@@ -10753,6 +10753,11 @@ textarea.form-control-lg {
   vertical-align: auto;
 }
 
+.widthImg {
+  width: 60%;
+  margin: auto;
+}
+
 .marg {
   display: flex;
   justify-content: center;

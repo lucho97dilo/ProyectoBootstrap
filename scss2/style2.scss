@@ -26,25 +26,29 @@ body{
 .center{
    margin: auto;
 }
-.widthImg{
-    width: 80%;
+
     
-}
-img{
-    width: 100%;
-}
+
+
+
 @media (max-width:768px){
     img{
         width: 100%;
        
      
 }
+body{
+    padding: unset;
+}
 
 div{
     flex-flow: column;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     
     
 }
+
 .widthImg{
     width: unset;
 }
