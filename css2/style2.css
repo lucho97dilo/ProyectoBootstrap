@@ -10739,7 +10739,12 @@ textarea.form-control-lg {
   background-color: #04146c;
   font-family: "Mulish", sans-serif;
   font-weight: 400;
+  font-size: 18px;
   margin-right: 1rem;
+}
+
+img {
+  min-width: 400px;
 }
 
 body {
