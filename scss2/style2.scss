@@ -51,10 +51,17 @@ h1{
     div {flex-wrap: wrap;
     justify-content: center;
     }
+    .card-img-top{
+        max-width: 300px;
+    }
+  
   }
 @media(max-width: 768px){
    div{flex-flow: column;
     justify-content: center;
+    }
+    .card-img-top{
+        max-width: unset;
     }
  }
  
